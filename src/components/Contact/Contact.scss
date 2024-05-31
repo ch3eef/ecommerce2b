@@ -1,0 +1,43 @@
+.contact {
+    background-color: #2879fe;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    @media only screen and (max-width: 431px) {
+        background-color: pink;
+    }
+
+    .wrapper {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        @media only screen and (max-width: 431px) {
+            width: 100%;
+        }
+
+        span {
+            @media only screen and (max-width: 431px) {
+                display: none;
+            }
+        }
+
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+
+        }
+        button {
+            padding: 10px;
+            color: white;
+            background: #333;
+            border-radius: 0 5px 5px 0;
+            border: none;
+        }
+        .icons {
+            display: flex;
+            gap: 10px;
+        }
+    }
+}
